@@ -15,7 +15,7 @@
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
   <!-- Theme CSS -->
-  <link href="css/clean-blog.min.css" rel="stylesheet">
+  <link href="css/clean-blog.css" rel="stylesheet">
 
   <!-- Custom Fonts -->
   <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
@@ -31,107 +31,110 @@
 
 </head>
 
-<body>
+  <body>
+  <div id="wrapper">
+    <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-custom navbar-fixed-top">
+      <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header page-scroll">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+            <span class="sr-only">Toggle navigation</span>
+            Menu <i class="fa fa-bars"></i>
+          </button>
+          <a class="navbar-brand" href="index.html">Mike Legacy</a>
+        </div>
 
-  <!-- Navigation -->
-  <nav class="navbar navbar-default navbar-custom navbar-fixed-top">
-    <div class="container-fluid">
-      <!-- Brand and toggle get grouped for better mobile display -->
-      <div class="navbar-header page-scroll">
-        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-          <span class="sr-only">Toggle navigation</span>
-          Menu <i class="fa fa-bars"></i>
-        </button>
-        <a class="navbar-brand" href="index.html">Mike Legacy</a>
-      </div>
-
-      <!-- Collect the nav links, forms, and other content for toggling -->
-      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-        <ul class="nav navbar-nav navbar-right">
-          <li>
-            <a href="index.html">Home</a>
-          </li>
-          <li>
-            <a href="about.html">About</a>
-          </li>
-          <li>
-            <a href="blog.html">Blog</a>
-          </li>
-          <li>
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav navbar-right">
+            <li>
+              <a href="index.html">Home</a>
+            </li>
+            <li>
+              <a href="about.html">About</a>
+            </li>
+            <li>
+              <a href="blog.html">Blog</a>
+            </li>
+            <li>
               <a href="to-do.html">To do</a>
-          </li>
-          <li>
+            </li>
+            <li>
               <a href="Resume.pdf">Resume</a>
-          </li>
-        </ul>
+            </li>
+          </ul>
+        </div>
+        <!-- /.navbar-collapse -->
       </div>
-      <!-- /.navbar-collapse -->
-    </div>
-    <!-- /.container -->
-  </nav>
+      <!-- /.container -->
+    </nav>
 
-  <!-- Page Header -->
-  <!-- Set your background image for this header on the line below. -->
-  <header class="intro-header" style="background-image: url('img/home-bg.jpg')">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-          <div class="site-heading">
-            <h1>page title here</h1>
-            <hr class="small">
-            <span class="subheading">sub heading here</span>
+    <!-- Page Header -->
+    <!-- Set your background image for this header on the line below. -->
+    <header class="intro-header" style="background-image: url('img/home-bg.jpg')">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+            <div class="site-heading">
+              <h1>page title here</h1>
+              <hr class="small">
+              <span class="subheading">sub heading here</span>
+            </div>
           </div>
         </div>
       </div>
-    </div>
-  </header>
+    </header>
 
-  <!-- Content -->
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-        <!-- insert content here -->
-      </div>
-    </div>
-  </div>
-
-  <!-- Footer -->
-  <footer>
+    <!-- Content -->
     <div class="container">
       <div class="row">
         <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-          <ul class="list-inline text-center">
-            <li>
-              <a href="https://www.linkedin.com/in/michaellegacy">
-                <span class="fa-stack fa-lg">
-                  <i class="fa fa-circle fa-stack-2x"></i>
-                  <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
-                </span>
-              </a>
-            </li>
-            <li>
-            <a href="mailto:mike-legacy@hotmail.com">
-            <span class="fa-stack fa-lg">
-            <i class="fa fa-circle fa-stack-2x"></i>
-            <i class="fa fa-envelope fa-stack-1x fa-inverse"></i>
-          </span>
-        </a>
-      </li>
-      <li>
-        <a href="https://github.com/MichaelLegacy">
-          <span class="fa-stack fa-lg">
-            <i class="fa fa-circle fa-stack-2x"></i>
-            <i class="fa fa-github fa-stack-1x fa-inverse"></i>
-          </span>
-        </a>
-      </li>
-    </ul>
-    <p class="copyright text-muted">Copyright &copy; Michael Legacy 2016</p>
-  </div>
-</div>
-</div>
-</footer>
+          <!-- insert content here -->
+        </div>
+      </div>
+    </div>
 
+    <div id="push"></div>
+  </div>
+  <div id ="bottom">
+    <!-- Footer -->
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+            <ul class="list-inline text-center">
+              <li>
+                <a href="https://www.linkedin.com/in/michaellegacy">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="mailto:mike-legacy@hotmail.com">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-envelope fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://github.com/MichaelLegacy">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+            </ul>
+            <p class="copyright text-muted">Copyright &copy; Michael Legacy 2016</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </div>
   <!-- jQuery -->
   <script src="vendor/jquery/jquery.min.js"></script>
 
