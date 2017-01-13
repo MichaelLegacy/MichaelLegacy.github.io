@@ -401,6 +401,11 @@ body {
 }
 
 /* Added by me, not from template --------------------------------------*/
+
+html, body{
+  height: 100%;
+}
+
 #wrapper{
   min-height: 100%;
   height: auto !important;
