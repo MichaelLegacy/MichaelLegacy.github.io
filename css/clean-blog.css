@@ -1,8 +1,8 @@
 /*!
-* Start Bootstrap - Clean Blog v3.3.7+1 (http://startbootstrap.com/template-overviews/clean-blog)
-* Copyright 2013-2016 Start Bootstrap
-* Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
-*/
+ * Start Bootstrap - Clean Blog v3.3.7+1 (http://startbootstrap.com/template-overviews/clean-blog)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
+ */
 body {
   font-family: 'Lora', 'Times New Roman', serif;
   font-size: 20px;
@@ -377,7 +377,6 @@ form .row:first-child .floating-label-form-group {
   background-color: #333333;
   cursor: not-allowed;
 }
-
 ::-moz-selection {
   color: white;
   text-shadow: none;
@@ -398,21 +397,4 @@ img::-moz-selection {
 }
 body {
   -webkit-tap-highlight-color: #0085A1;
-}
-
-/* Added by me, not from template --------------------------------------*/
-
-html, body{
-  height: 100%;
-}
-
-#wrapper{
-  min-height: 100%;
-  height: auto !important;
-  height: 100%;
-  margin: 0 auto -30px;
-}
-
-#bottom, #push {
-  height: 30px;
 }
