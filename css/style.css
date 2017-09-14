@@ -3,7 +3,7 @@ html, body{
 }
 
 #wrapper{
-  minheight: 100%;
+  min-height: 100%;
   height: auto !important;
   height: 100%;
   margin: 0 auto 30px;
@@ -13,18 +13,20 @@ html, body{
   height: 30px;
 }
 
-.songOfTheDay-table {
-  table-layout: fixed;
-}
+@media screen and (min-width: 760px) {
+  .songOfTheDay-table {
+    table-layout: fixed;
+  }
 
-.songOfTheDay-date {
-  width: 151px;
-}
+  .songOfTheDay-date {
+    width: 151px;
+  }
 
-.songOfTheDay-youTube {
-  width: 146px;
-}
+  .songOfTheDay-youTube {
+    width: 146px;
+  }
 
-.songOfTheDay-spotify{
-  width: 136px;
+  .songOfTheDay-spotify{
+    width: 136px;
+  }
 }
