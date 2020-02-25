@@ -1,3 +1,1 @@
-Hello reader. This is the repository where I keep and host my current personal website. 
-
-It can be found at http://www.theMikeLegacy.com
+#This Repo is no longer in use as my main website. See https://MikeLegacy.net for up to date information.
